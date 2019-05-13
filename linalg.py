@@ -37,7 +37,8 @@ solution 2:
 
 Determinant:
     linalg.det(<np.array>)
-    
+ 
+'''
 Norm:
     linalg.norm(np.array,ord)
     The only valid values for ord are +-2 +-1 +-np.inf,and 'for' (or 'f')
@@ -45,5 +46,4 @@ Norm:
     ord=1      -- L1 norm (max column sum)
     ord=-1     -- min column sum
     
-
-    ord=
+'''
