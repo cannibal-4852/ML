@@ -13,3 +13,18 @@
 6 x + 4
 >>> p([4, 5])
 array([ 69, 100])
+
+
+'''
+Vectorizing functions
+'''
+>>> def addsubtract(a,b):
+...    if a > b:
+...        return a - b
+...    else:
+...        return a + b
+
+>>> vec_addsubtract = np.vectorize(addsubtract)
+
+>>> vec_addsubtract([0,3,6,9],[1,3,5,7])
+array([1, 6, 1, 2])
